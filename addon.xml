@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.newcastleunited"
+	name="Newcastle United"
+	version="1.0.0"
+	provider-name="zag">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Newcastle United YouTube Channel</summary>
+    <description lang="en">Official YouTube account of Newcastle United Football Club, including weekly highlights of matches. UK only.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source>https://github.com/zag2me/plugin.video.newcastleunited</source>
+    <website>https://kodi.tv</website>
+    <email>zag@kodi.tv</email>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+        <screenshot>resources/screenshot-03.jpg</screenshot>
+        <screenshot>resources/screenshot-04.jpg</screenshot>
+        <screenshot>resources/screenshot-05.jpg</screenshot>
+        <screenshot>resources/screenshot-06.jpg</screenshot>
+        <screenshot>resources/screenshot-07.jpg</screenshot>
+        <screenshot>resources/screenshot-08.jpg</screenshot>
+        <screenshot>resources/screenshot-09.jpg</screenshot>
+    </assets>
+    <news>Initial Release</news>
+  </extension>
+</addon>

@@ -1,0 +1,2 @@
+- v1.0.1 move icon and fanart to root
+- v1.0.0 initial release
